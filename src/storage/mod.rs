@@ -57,6 +57,7 @@ pub enum StorageKey {
     Dlq(SorobanString),
     DlqCount(i128),
     TempLock(SorobanString),
+    MaxAssets,
 }
 
 // Removed broken/duplicate module declarations
