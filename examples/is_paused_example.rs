@@ -1,4 +1,5 @@
 // Example demonstrating the is_paused() query endpoint
+use soroban_sdk::{Address, Env};
 
 // This example shows how external systems can check the pause state
 // before submitting transactions to the Synapse contract
